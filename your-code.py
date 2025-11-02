@@ -16,7 +16,10 @@ R_OUT = 8.0
 ZP_U = 25.0
 ZP_V = 25.0
 
-DATA = Path("/content/hst-hrd-assignment/data") # paths
+BASE = Path(__file__).resolve().parent # I got help with this part
+DATA = BASE / "data"
+OUT  = BASE / "outputs"; OUT.mkdir(exist_ok=True)
+
 OUT = Path("outputs")
 OUT.mkdir(exist_ok=True)
 
