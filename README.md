@@ -1,5 +1,7 @@
 This repo is for my Optical Detectors assignment where the aim was to build a Hertzsprung–Russell Diagram (H–R Diagram) using HST data (filters F336W and F555W).
-...........................................................................................
+
+    ...........................................................................................
+    
 The main steps in the code are:
 -Combining the aligned FITS images (median stack)
 -Finding stars using a simple local-max and sigma-clipped stats method
@@ -8,7 +10,11 @@ The main steps in the code are:
 -Plotting the final Hertzprung Russell diagram
 
 Most of the code, logic and parameters come straight from the Brightspace worked workbooks 1–3.
-...........................................................................................
+
+
+    ...........................................................................................
+
+
 FOLDERS...
 ¦-data/
 ¦---F336W/
@@ -18,7 +24,9 @@ FOLDERS...
 ¦-README.md
 
 When you run the script it also creates an “outputs” folder where all results (combined FITS, catalog, plots) are saved.
-.........................................................................................
+
+    .........................................................................................
+    
 INSTRUCTIONS....
 Clone the repo and just run the main script;
 
@@ -35,7 +43,8 @@ The results hould be output like this;
 <img width="578" height="463" alt="image" src="https://github.com/user-attachments/assets/c7d5d0c6-fe21-4aa1-a456-0ef1ecc9d709" />
 <img width="622" height="491" alt="image" src="https://github.com/user-attachments/assets/c5f2a3d2-9221-4b42-b63a-a92330d72799" />
 
-................................................................................................
+    ................................................................................................
+
 Assistance statement;
 I used AI (ChatGPT) and StackOverflow a few times for debugging help and for improving portability (like getting the relative paths right).
 All the actual logic, parameters, and workflow follow the course Brightspace notebooks, so the work is my own.
