@@ -8,17 +8,19 @@ Once successfully cloned run;
 
 It should look something like this
 
-<img width="412" height="391" alt="image" src="https://github.com/user-attachments/assets/c63b20cb-c75f-42bc-bfa1-b0d2375cbe20" />
+<img width="597" height="414" alt="image" src="https://github.com/user-attachments/assets/bc19d27f-71f4-45cf-bbe9-63051ab89e1c" />
 
-
+    __________________________________________________________________________________________________________________
+    
 
 The final Hertzprung-Russell diagram should output like this...
 
-<img width="491" height="590" alt="image" src="https://github.com/user-attachments/assets/a4be73ed-8aca-4194-ad19-2c26b64f5cc2" />
+<img width="489" height="490" alt="image" src="https://github.com/user-attachments/assets/e0f9c8dd-c07f-405e-94a7-99874d1431fd" />
+    
 
 
 
+    __________________________________________________________________________________________________________________
 
-
-In the spirit of transparency and academic integrity, I include the following statement regarding the external non-UCD assistance used;
-I used AI (ChatGPT), and StackOverflow for a fair bit of debugging (clarifying errors, making some improvemnets and user portability). That said pretty much all of the algorithmic choices, parameters, and code logic follow the Brightspace course notebooks, so I think this work overall would qualify as my own and plagarism was avoided where possible.
+Note for transparency and academic integrity, I include the following statement regarding the external non-UCD assistance used;
+I used AI (ChatGPT), and StackOverflow for a fair bit of debugging (clarifying errors, making some inprovements and trying to better user portability). That said pretty much all of the algorithmic choices, parameters, and code logic follow the Brightspace course notebooks, so I think this work overall would be my own and plagarism was avoided where possible.
