@@ -40,7 +40,7 @@ See the screenshot below;
 
 <img width="567" height="196" alt="image" src="https://github.com/user-attachments/assets/869c8b6b-e099-49be-8b49-1ae5b3562420" />
 
-The results hould be output like this; 
+The results should be output like this; 
 
 <img width="578" height="463" alt="image" src="https://github.com/user-attachments/assets/c7d5d0c6-fe21-4aa1-a456-0ef1ecc9d709" />
 
@@ -49,5 +49,5 @@ The results hould be output like this;
     ................................................................................................
 
 Assistance statement;
-I used AI (ChatGPT) and StackOverflow a few times for debugging help and for improving portability (like getting the relative paths right).
-All the actual logic, parameters, and workflow follow the course Brightspace notebooks, so the work is my own.
+In alignment with academic integrity, I declare that I used AI (ChatGPT) and StackOverflow a few times for debugging help and for improving outputs and portability.
+All the actual logic, parameters, and workflow follow the uploaded course Brightspace notebooks, so the work is my own with guidance from Worked Workbooks 1-3. Plagarism was avoided where possible.
