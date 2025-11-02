@@ -37,10 +37,13 @@ Clone the repo and just run the main script;
     python your-code.py
 
 See the screenshot below;
+
 <img width="567" height="196" alt="image" src="https://github.com/user-attachments/assets/869c8b6b-e099-49be-8b49-1ae5b3562420" />
 
 The results hould be output like this; 
+
 <img width="578" height="463" alt="image" src="https://github.com/user-attachments/assets/c7d5d0c6-fe21-4aa1-a456-0ef1ecc9d709" />
+
 <img width="622" height="491" alt="image" src="https://github.com/user-attachments/assets/c5f2a3d2-9221-4b42-b63a-a92330d72799" />
 
     ................................................................................................
