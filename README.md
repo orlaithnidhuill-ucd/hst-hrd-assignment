@@ -1,26 +1,41 @@
-To make this code run correctly copy the code below into a notebook;
+This repo is for my Optical Detectors assignment where the aim was to build a Hertzsprung–Russell Diagram (H–R Diagram) using HST data (filters F336W and F555W).
+...........................................................................................
+The main steps in the code are:
+-Combining the aligned FITS images (median stack)
+-Finding stars using a simple local-max and sigma-clipped stats method
+-Doing aperture photometry
+-Converting flux to magnitudes
+-Plotting the final Hertzprung Russell diagram
 
-    !git clone https://github.com/orlaithnidhuill-ucd/hst-hrd-assignment.git
+Most of the code, logic and parameters come straight from the Brightspace worked workbooks 1–3.
+...........................................................................................
+FOLDERS...
+¦-data/
+¦---F336W/
+¦---F555W/
+¦-ccd_utils.py
+¦-your-code.py
+¦-README.md
 
-Once successfully cloned run;
+When you run the script it also creates an “outputs” folder where all results (combined FITS, catalog, plots) are saved.
+.........................................................................................
+INSTRUCTIONS....
+Clone the repo and just run the main script;
 
-    run /content/hst-hrd-assignment/your-code.py
-
-It should look something like this
-
-<img width="597" height="414" alt="image" src="https://github.com/user-attachments/assets/bc19d27f-71f4-45cf-bbe9-63051ab89e1c" />
-
-    __________________________________________________________________________________________________________________
+    git clone [https://github.com/orlaithnidhuill-ucd/hst-hrd-assignment.git]
     
-
-The final Hertzprung-Russell diagram should output like this...
-
-<img width="489" height="490" alt="image" src="https://github.com/user-attachments/assets/e0f9c8dd-c07f-405e-94a7-99874d1431fd" />
+    cd hst-hrd-assignment
     
+    python your-code.py
 
+See the screenshot below;
+<img width="567" height="196" alt="image" src="https://github.com/user-attachments/assets/869c8b6b-e099-49be-8b49-1ae5b3562420" />
 
+The results hould be output like this; 
+<img width="578" height="463" alt="image" src="https://github.com/user-attachments/assets/c7d5d0c6-fe21-4aa1-a456-0ef1ecc9d709" />
+<img width="622" height="491" alt="image" src="https://github.com/user-attachments/assets/c5f2a3d2-9221-4b42-b63a-a92330d72799" />
 
-    __________________________________________________________________________________________________________________
-
-Note for transparency and academic integrity, I include the following statement regarding the external non-UCD assistance used;
-I used AI (ChatGPT), and StackOverflow for a fair bit of debugging (clarifying errors, making some inprovements and trying to better user portability). That said pretty much all of the algorithmic choices, parameters, and code logic follow the Brightspace course notebooks, so I think this work overall would be my own and plagarism was avoided where possible.
+................................................................................................
+Assistance statement;
+I used AI (ChatGPT) and StackOverflow a few times for debugging help and for improving portability (like getting the relative paths right).
+All the actual logic, parameters, and workflow follow the course Brightspace notebooks, so the work is my own.
