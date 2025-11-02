@@ -20,9 +20,6 @@ BASE = Path(__file__).resolve().parent # I got help with this part
 DATA = BASE / "data"
 OUT  = BASE / "outputs"; OUT.mkdir(exist_ok=True)
 
-OUT = Path("outputs")
-OUT.mkdir(exist_ok=True)
-
 F336W = sorted((DATA / "F336W").glob("*_aligned.fits")) #list the image files (think workbook 1)
 F555W = sorted((DATA / "F555W").glob("*_aligned.fits"))
 print("files found:", len(F336W), len(F555W))
