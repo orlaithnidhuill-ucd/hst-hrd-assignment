@@ -125,6 +125,7 @@ mag_tab.write(OUT / "mag_catalog.csv", overwrite=True)
 print("wrote", OUT / "mag_catalog.csv")
 
 plt.figure(figsize=(5, 6))
+plt.style.use('dark_background')
 plt.scatter(mag_V - mag_U, mag_V, s=3, color='w', alpha=0.6)
 plt.gca().invert_yaxis()
 plt.xlabel("F555W-F336W (Colour)", fontsize=12)
