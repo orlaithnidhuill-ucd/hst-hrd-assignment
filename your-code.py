@@ -161,7 +161,7 @@ plt.show()
 
 plt.figure(figsize=(5,5)) # I want a plot with more colour and similarity to a real H-R diagram, I got some help from the SENTINEL exercise practice plots for this
 color = mag_V - mag_U
-sc2 = plt.scatter(color, mag_V, c=color, cmap='jet', s=3, alpha=0.8, edgecolors='k')
+sc2 = plt.scatter(color, mag_V, c=color, cmap='jet', s=5, alpha=0.8, edgecolors='k')
 plt.gca().invert_yaxis()
 plt.xlabel("F555W-F336W", fontsize=12)
 plt.ylabel("F555W (Magnitude)", fontsize=12)
